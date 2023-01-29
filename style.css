@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
+html {
+    font-size: 62.5%;
+}
+#logo-nav {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    
+}
+#principal-nav {
+    margin: 0px;
+    list-style: none;
+    padding: 20px;
+    background-color: aqua;
+    text-align:end;
+  
+}
+.principal-nav__item {
+    display: inline-block;
+    font-size: 2rem;
+
+}
+.principal-nav__item a {
+    color:black;
+    padding: 18px;
+    text-decoration: none;
+
+}
+.principal-nav__item a:active {
+   color: whitesmoke; 
+}
+.frase {
+    text-align: center;
+    font-size: 3rem;
+    
+
+}
+.grid-contenedor {
+    max-width: 980px;
+    margin: auto;
+}
+.blog-main {
+    display: grid;
+}
+.blog-main2 {
+    background-color: cadetblue;
+    padding: 0 50px 40px;
+}
+.blog-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blog-main-imagen {
+    margin: 10px;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+}
+.blog-main-inf {
+    grid-column: 2;
+    font-size: 2rem;
+    margin: 30px;
+}
+.blog-main-inf p {
+    margin-bottom: 35px;
+}
+.blog-button {
+    border: 1px solid gray;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.segunda-seccion .contenedor {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.segunda-seccion .contenedor p {
+    margin-bottom: 35px;
+    font-size: 2rem;
+}
+.segunda-seccion .contenedor img {
+    width: 90%;
+}
+h4 {
+    color: burlywood;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border-top: 35px solid aqua;
+    
+}
+.p-footer {
+    text-align:start;
+    font-size: 2rem;
+    color: black;
+    margin-top: 30px;
+    
+}
+
+.blog-img {
+    width: 400px;
+    padding: 50px;
+}
+.blog-img img {
+    width: 100%;
+   
+}
+.blog-inf {
+    padding: 0 30px 20px;
+}
+.blog-inf h2  {
+    border-bottom: 1px solid deepskyblue ;
+    padding-bottom: 50px;
+    font-size: 2rem;
+}
+.blog-grid article h2{
+    font-size: 2rem;
+}
+.otros {
+    width: 100%;
+    min-height: 250px;
+    background-color: brown;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.otros div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.otros div a  {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 3rem;
+}
+.otros .otros-, .otros-- {
+    text-align: initial;
+    margin-top: 86px;
+    font-size: 3rem;
+}
+.otros img {
+    width: 100px;
+}
